@@ -15,22 +15,25 @@ h1 {
 
 h2 {
   font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
 }
 
 h3 {
   font-size: 1.2em;
-  color: #bd5f51;
+  color: #f2b848;
   font-family: 'Gentium Book Basic', serif;
 }
 
 p {
   line-height: 150%;
+  font-size: 1.2em;
 }
 
 header {
   margin: 0;
   text-align: center;
-  border-top: 20px solid #bd5f51;
+  border-top: 20px solid #f2b848;
 }
 
 .masthead {
@@ -43,7 +46,7 @@ header {
 
 .masthead-intro {
   margin-bottom: 0.1em;
-  color: #fffffb;
+  color: #f2b848;
   font-family: 'Gentium Book Basic', serif;
   font-size: 2em;
   text-shadow: 0px 2px #2c1b29;
@@ -51,10 +54,10 @@ header {
 
 .masthead-heading {
   margin-top: -0.2em;
-  color: #bd5f51;
+  color: #f2b848;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  text-shadow: 0px 2px #e47041;
+  text-shadow: 0px 2px #2c1b29;
 }
 
 main {
@@ -71,9 +74,9 @@ footer {
 }
 
 .content-footer {
-	margin-top: 5em;
-	padding: 4em 0;
-	background-color: #bd5f51;
+  margin-top: 5em;
+  padding: 4em 0;
+  background-color: #f2b848;
 }
 
 .content-footer > p {
@@ -87,11 +90,43 @@ footer {
 }
 
 .social {
-	padding: 0;
-	list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .social > li {
-	display: inline-block;
-	margin-right: 1em;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.sec {
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.project {
+  text-align: center;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #FF0000;
+  text-decoration: underline;
+  font-size: 120%;
+}
+
+.masthead-quote {
+  color: white;
+  font-size: 2em;
+  text-shadow: 0px 2px #2c1b29;
 }
